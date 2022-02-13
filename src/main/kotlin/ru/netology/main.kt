@@ -26,7 +26,7 @@ fun main() {
     }
 
     println("Total Price: $result")
-
+}
     /*было так:
     *     val discountStart = 1001
     val discountNext = 10001
@@ -48,4 +48,3 @@ fun main() {
         else if (totalPrice > discountNext && !Melomans) totalPrice - percentDiscount
         else totalPrice
     println("Total Price: $result")*/
-}
